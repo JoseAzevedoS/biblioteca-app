@@ -1,60 +1,128 @@
 <head>
   <style>
-    .menu-toggle {
-  display: none;
+:root {
+    --primary-color: #5c3c21; 
+    --secondary-color: #8b5a2b;
+    --accent-color: #d4a76a;
+    --light-color: #f5f0e6;
+    --dark-color: #2c1a0d;
+    --text-color: #333;
+    --text-light: #f8f8f8;
 }
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-    font-size: 26px;
-    background: none;
-    border: none;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+body {
+    background-color: var(--light-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.catalogo {
+    margin-bottom: 40px;
+}
+
+.catalogo h2 {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.carrossel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-color) var(--light-color);
+}
+
+.carrossel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.carrossel::-webkit-scrollbar-track {
+    background: var(--light-color);
+    border-radius: 4px;
+}
+
+.carrossel::-webkit-scrollbar-thumb {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+.livro {
+    flex: 0 0 auto;
+    width: 160px;
+    background-color: white;
+    border-radius: 8px;
     padding: 15px;
-    cursor: pointer;
-    color: white;
-    background-color: #333;
-    width: 100%;
-    text-align: left;
-  }
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.livro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.livro img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.livro h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: var(--dark-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.livro p {
+    font-size: 14px;
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
     .carrossel {
-      display: flex;
-      gap: 20px;
-      overflow-x: auto;
-      scroll-behavior: smooth;
-      padding: 10px;
+        padding: 15px 5px;
     }
-
+    
     .livro {
-      flex: 0 0 auto;
-      width: 160px;
-      background-color: #f5f5f5;
-      border-radius: 8px;
-      padding: 10px;
-      text-align: center;
+        width: 140px;
+        padding: 10px;
     }
-
+    
     .livro img {
-      width: 100%;
-      border-radius: 4px;
+        height: 180px;
     }
+}
   </style>
 </head>
-<body>
-  <header>
-    <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-    
-    <nav class="menu" id="menu">
-      <a href="index.html">Início</a>
-      <a href="catalogo.html">Catálogo</a>                                                                                                           
-      <a href="emprestimos.html">Empréstimos</a>
-      <a href="servicos.html">Serviços</a>
-      <a href="eventos.html">Eventos</a>
-      <a href="contato.html">Contato</a>
-      <a href="sobre.html">Sobre</a>
-    </nav>
-  </header>
 
+<body>
   <main>
     <section class="catalogo">
       <h2>Sessão 1</h2>
@@ -148,7 +216,4 @@
         </div>
     </section>
   </main>
-
-  <script src="script.js"></script>
 </body>
-
