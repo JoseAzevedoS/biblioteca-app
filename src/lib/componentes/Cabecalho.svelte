@@ -7,7 +7,7 @@
 		<div class="container">
 			<div class="logo-area">
 				<a href="index.html">
-					<img src="/logo.png" alt="Biblioteca - Conhecimento para Todos" class="logo" />
+					<img src="/logo_livraria.png" alt="Biblioteca - Conhecimento para Todos" class="logo" />
 				</a>
 			</div>
 
