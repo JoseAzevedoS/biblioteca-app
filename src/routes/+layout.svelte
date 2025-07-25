@@ -6,6 +6,5 @@
 </script>
 
 <Cabecalho></Cabecalho>
-
 {@render children()}
 <Rodape></Rodape>
