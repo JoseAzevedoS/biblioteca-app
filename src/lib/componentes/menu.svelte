@@ -30,29 +30,29 @@
 	];
     let livros2 = [
 		{ 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Eu e Esse Meu Coração', 
+           	autor: 'C. C. Hunter',
+             foto: 'https://i.pinimg.com/1200x/d8/d0/d2/d8d0d25e9357d142df157723f34fea20.jpg'
         },
 		{ 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Ainda Ontem Pensei Com o Coração', 
+           	autor: 'Vini Queiroz',
+             foto: 'https://i.pinimg.com/1200x/99/5f/91/995f913fdb0ec91c7290492c93e7586b.jpg'
         },
         { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'O Amor Não é Óbvio ', 
+           	autor: 'Elayne Baeta',
+             foto: 'https://i.pinimg.com/1200x/54/76/2e/54762e45c0efba8660f50f6370a243bf.jpg'
         },
         { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Coisas Óbvias Sobre O Amor', 
+           	autor: 'Elayne Baeta',
+             foto: 'https://i.pinimg.com/736x/d5/6a/b0/d56ab008d4a66f69c2119646f4e6bd25.jpg'
         },
 { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Oxe Baby', 
+           	autor: 'Elayne Baeta',
+             foto: 'https://i.pinimg.com/736x/39/49/46/394946478b0c808c604a5ef9db5a53b6.jpg'
         }
 	];
     let livros3 = [
