@@ -6,9 +6,7 @@
 	<div class="cabecalho-principal">
 		<div class="container">
 			<div class="logo-area">
-				<a href="index.html">
-					<img src="/logo_livraria.png" alt="Biblioteca - Conhecimento para Todos" class="logo" />
-				</a>
+				<img src="/logo_livraria.png" alt="Biblioteca - Conhecimento para Todos" class="logo"/>
 			</div>
 
 			<div class="busca-area">
@@ -82,12 +80,6 @@
 		padding: 0;
 		box-sizing: border-box;
 		font-family: 'Georgia', 'Times New Roman', serif;
-	}
-
-	body {
-		background-color: var(--light-color);
-		color: var(--text-color);
-		line-height: 1.6;
 	}
 
 	.container {

@@ -1,93 +1,112 @@
+<script lang="ts">
+	import Livro from './Livro.svelte';
+
+	let livros = [
+		{
+			titulo: 'O Nome do Vento',
+			autor: 'Patrick Rothfuss',
+            foto: 'https://m.media-amazon.com/images/I/51NiIHPz4wL._SY445_SX342_.jpg'
+		},
+		{ 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+        { 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+        { 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+        { 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+	];
+    let livros2 = [
+		{ 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+		{ 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+        { 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+        { 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+{ 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        }
+	];
+    let livros3 = [
+		{ 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+		{ 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+        { 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+        { 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        },
+{ 
+            titulo: 'O temor do sábio', 
+           	autor: 'Patrick Rothfuss',
+             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+        }
+	];
+</script>
+
 <main>
 	<section class="catalogo">
 		<h2>Sessão 1</h2>
-
 		<div class="carrossel">
-			<div class="livro">
-				<img src="" alt="Livro 1" />
-				<h3>O Nome do Vento</h3>
-				<p>Patrick Rothfuss</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 2" />
-				<h3>Dom Casmurro</h3>
-				<p>Machado de Assis</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 3" />
-				<h3>1984</h3>
-				<p>George Orwell</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 4" />
-				<h3>1999</h3>
-				<p>Mayra</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 4" />
-				<h3>1999</h3>
-				<p>Mayra</p>
-			</div>
+			{#each livros as livro}
+				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto}/>
+			{/each}
 		</div>
 	</section>
 	<section class="catalogo">
 		<h2>Sessão 2</h2>
 		<div class="carrossel">
-			<div class="livro">
-				<img src="" alt="Livro 5" />
-				<h3>1984</h3>
-				<p>George Orwell</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 6" />
-				<h3>O Pequeno Príncipe</h3>
-				<p>Antoine de Saint-Exupéry</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 6" />
-				<h3>O Pequeno Príncipe</h3>
-				<p>Antoine de Saint-Exupéry</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 6" />
-				<h3>O Pequeno Príncipe</h3>
-				<p>Antoine de Saint-Exupéry</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 6" />
-				<h3>O Pequeno Príncipe</h3>
-				<p>Antoine de Saint-Exupéry</p>
-			</div>
+			{#each livros2 as livro}
+				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto}/>
+			{/each}
 		</div>
 	</section>
 	<section class="catalogo">
 		<h2>Sessão 3</h2>
 		<div class="carrossel">
-			<div class="livro">
-				<img src="" alt="Livro 5" />
-				<h3>1984</h3>
-				<p>George Orwell</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 6" />
-				<h3>O Pequeno Príncipe</h3>
-				<p>Antoine de Saint-Exupéry</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 6" />
-				<h3>O Pequeno Príncipe</h3>
-				<p>Antoine de Saint-Exupéry</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 6" />
-				<h3>O Pequeno Príncipe</h3>
-				<p>Antoine de Saint-Exupéry</p>
-			</div>
-			<div class="livro">
-				<img src="" alt="Livro 6" />
-				<h3>O Pequeno Príncipe</h3>
-				<p>Antoine de Saint-Exupéry</p>
-			</div>
+            {#each livros3 as livro}
+				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto} />
+			{/each}
 		</div>
 	</section>
 </main>
@@ -156,48 +175,6 @@
 	.carrossel::-webkit-scrollbar-thumb {
 		background-color: var(--accent-color);
 		border-radius: 4px;
-	}
-
-	.livro {
-		flex: 0 0 auto;
-		width: 160px;
-		background-color: white;
-		border-radius: 8px;
-		padding: 15px;
-		text-align: center;
-		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-		transition:
-			transform 0.3s,
-			box-shadow 0.3s;
-	}
-
-	.livro:hover {
-		transform: translateY(-5px);
-		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-	}
-
-	.livro img {
-		width: 100%;
-		height: 220px;
-		object-fit: cover;
-		border-radius: 4px;
-		margin-bottom: 15px;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	}
-
-	.livro h3 {
-		font-size: 16px;
-		margin-bottom: 5px;
-		color: var(--dark-color);
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-
-	.livro p {
-		font-size: 14px;
-		color: var(--secondary-color);
-		font-style: italic;
 	}
 
 	@media (max-width: 768px) {
