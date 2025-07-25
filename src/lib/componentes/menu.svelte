@@ -3,29 +3,29 @@
 
 	let livros = [
 		{
-			titulo: 'O Nome do Vento',
-			autor: 'Patrick Rothfuss',
-            foto: 'https://m.media-amazon.com/images/I/51NiIHPz4wL._SY445_SX342_.jpg'
+			titulo: 'Verity',
+			autor: 'Colleen Hoover',
+            foto: 'https://i.pinimg.com/736x/0e/20/60/0e206030a674bf384469e08aabfdf486.jpg'
 		},
 		{ 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Tudo o que eu sei sobre o amor', 
+           	autor: 'Dolly Alderton',
+             foto: 'https://i.pinimg.com/736x/b9/fe/12/b9fe1276bc5124d8867de5e139f3d777.jpg'
         },
         { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Meu amigo espírito santo', 
+           	autor: 'Ade Huber',
+             foto: 'https://i.pinimg.com/736x/d6/67/de/d667def6f0a5e3dad9ffa75f83b612af.jpg'
         },
         { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Um sopro de vida', 
+           	autor: 'Clarice Lispector',
+             foto: 'https://i.pinimg.com/1200x/21/24/70/21247006e3779e7bbe1bae2b1cb1f39a.jpg'
         },
         { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Hábitos atômicos', 
+           	autor: 'James Clear',
+             foto: 'https://i.pinimg.com/736x/70/4c/00/704c002733b81135ebc1a90784e33c0e.jpg'
         },
 	];
     let livros2 = [
@@ -86,7 +86,7 @@
 
 <main>
 	<section class="catalogo">
-		<h2>Sessão 1</h2>
+		<h2>Destaques</h2>
 		<div class="carrossel">
 			{#each livros as livro}
 				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto}/>
@@ -94,7 +94,7 @@
 		</div>
 	</section>
 	<section class="catalogo">
-		<h2>Sessão 2</h2>
+		<h2>Favoritos</h2>
 		<div class="carrossel">
 			{#each livros2 as livro}
 				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto}/>
@@ -102,7 +102,7 @@
 		</div>
 	</section>
 	<section class="catalogo">
-		<h2>Sessão 3</h2>
+		<h2>Lançamentos</h2>
 		<div class="carrossel">
             {#each livros3 as livro}
 				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto} />
