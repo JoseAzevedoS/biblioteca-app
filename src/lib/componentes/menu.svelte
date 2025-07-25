@@ -88,9 +88,37 @@
 	<section class="catalogo">
 		<h2>Destaques</h2>
 		<div class="carrossel">
+<<<<<<< HEAD
 			{#each livros as livro}
 				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto}/>
 			{/each}
+=======
+			<div class="livro">
+				<img src="https://i.pinimg.com/736x/7b/61/9b/7b619b66ada89eb3620f3a18ebd255cb.jpg" alt="Livro 1" />
+				<h3>Meu amigo espírito santo</h3>
+				<p>Abe Huber</p>
+			</div>
+			<div class="livro">
+				<img src="https://i.pinimg.com/736x/fb/d3/55/fbd355c889f2efbff5189b6a621bb004.jpg" alt="Livro 2" />
+				<h3>Os sete maridos de Evelyn Hugo</h3>
+				<p>Colleen Hoover</p>
+			</div>
+			<div class="livro">
+				<img src="https://i.pinimg.com/736x/de/61/ea/de61eaa47714673e1f1a65c6f7cb5af0.jpg" alt="Livro 3" />
+				<h3>Calma aí, porra</h3>
+				<p>Sarah Knignt</p>
+			</div>
+			<div class="livro">
+				<img src="https://i.pinimg.com/736x/b9/fe/12/b9fe1276bc5124d8867de5e139f3d777.jpg" alt="Livro 4" />
+				<h3>Tudo o que eu sei sobre o amor</h3>
+				<p>Dolly Alderton</p>
+			</div>
+			<div class="livro">
+				<img src="https://i.pinimg.com/736x/0e/20/60/0e206030a674bf384469e08aabfdf486.jpg" alt="Livro 4" />
+				<h3>Verity</h3>
+				<p>Colleen Hoover</p>
+			</div>
+>>>>>>> main
 		</div>
 	</section>
 	<section class="catalogo">
