@@ -57,29 +57,29 @@
 	];
     let livros3 = [
 		{ 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'As Crônicas de Nárnia', 
+           	autor: 'C.S Lewis',
+             foto: 'https://i.pinimg.com/1200x/b3/55/a7/b355a7b3293da9e6639b5ae58b5428d3.jpg'
         },
 		{ 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Coraline',
+           	autor: 'Nail Gaiman',
+             foto: 'https://i.pinimg.com/1200x/ac/6a/cc/ac6acca3e94e308e2906b1bdb3e93922.jpg'
         },
         { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'A culpa é das estrelas ', 
+           	autor: 'Jhon Green',
+             foto: 'https://i.pinimg.com/736x/4d/cc/d8/4dccd859106a58897618f37b9ae6cd8c.jpg'
         },
         { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'A Seleção', 
+           	autor: 'Kiera Cass',
+             foto: 'https://i.pinimg.com/736x/67/67/b4/6767b445cfeb32d39f9b0c0c2ffa20db.jpg'
         },
 { 
-            titulo: 'O temor do sábio', 
-           	autor: 'Patrick Rothfuss',
-             foto: 'https://m.media-amazon.com/images/I/91rGGj7JBhL._SY425_.jpg'
+            titulo: 'Jogos Vorazes', 
+           	autor: 'Suzanne Collins',
+             foto: 'https://a-static.mlcdn.com.br/800x560/livro-jogos-vorazes/magazineluiza/234870000/b02c2f02bc79b53b0efc3dfec0fd99f6.jpg'
         }
 	];
 </script>
