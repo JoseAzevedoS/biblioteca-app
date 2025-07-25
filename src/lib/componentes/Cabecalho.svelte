@@ -1,5 +1,5 @@
 <script>
-	import { Icon, User, Heart } from 'svelte-hero-icons';
+	import { Icon, User, Bell, Cog } from 'svelte-hero-icons';
 </script>
 
 <header class="cabecalho">
@@ -28,15 +28,9 @@
 			</div>
 
 			<div class="menu-icones">
-				<a href="#" class="icone-link" aria-label="Minha conta">
-					<i class="icone-conta"></i>
-				</a>
-				<a href="#" class="icone-link" aria-label="Meus empréstimos">
-					<i class="icone-emprestimos"></i>
-				</a>
-				<a href="#" class="icone-link" aria-label="Favoritos">
-					<i class="icone-favoritos"></i>
-				</a>
+				<Icon src="{User}"size="32" />
+				<Icon src="{Bell}"size="32" />
+				<Icon src="{Cog}"size="32" />
 			</div>
 		</div>
 	</div>
@@ -61,7 +55,7 @@
 			</ul>
 		</div>
 	</nav>
-<Icon src="{User}"size="32" />
+
 </header>
 
 <style>
@@ -112,7 +106,7 @@
 	}
 
 	.logo {
-		height: 60px;
+		height: 150px;
 		width: auto;
 		filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 	}

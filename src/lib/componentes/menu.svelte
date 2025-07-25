@@ -86,7 +86,7 @@
 
 <main>
 	<section class="catalogo">
-		<h2>Sessão 1</h2>
+		<h2>Destaques</h2>
 		<div class="carrossel">
 			{#each livros as livro}
 				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto}/>
@@ -94,7 +94,7 @@
 		</div>
 	</section>
 	<section class="catalogo">
-		<h2>Sessão 2</h2>
+		<h2>Favoritos</h2>
 		<div class="carrossel">
 			{#each livros2 as livro}
 				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto}/>
@@ -102,7 +102,7 @@
 		</div>
 	</section>
 	<section class="catalogo">
-		<h2>Sessão 3</h2>
+		<h2>Lançamentos</h2>
 		<div class="carrossel">
             {#each livros3 as livro}
 				<Livro titulo={livro.titulo} autor={livro.autor} foto={livro.foto} />
